@@ -1,0 +1,13 @@
+%!TEX encoding = UTF-8 Unicode
+%
+%
+\ProvidesFile{texts_de.def}[examreport English texts]
+
+\newcommand{\disclaimer}{\emph{\textbf{Attention:} This document is only a transcript from memory, created for the student committee of computer science and mathematics at the University of Passau. It is not the original exam and there is no claim for correctness or completeness!}}
+\newcommand{\examtext}[1]{Exam in #1}
+\newcommand{\durationtext}{Duration}
+\newcommand{\totalpointstext}{Total points}
+\newcommand{\aidstext}{Permitted aids}
+\newcommand{\tasktext}{Task}
+\newcommand{\pointstext}[1]{$#1$ \ifthenelse{\equal{#1}{1}}{point}{points}}
+\newcommand{\minutestext}[1]{$#1$ \ifthenelse{\equal{#1}{1}}{minute}{minutes}}

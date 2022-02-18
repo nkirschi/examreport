@@ -1,0 +1,13 @@
+%!TEX encoding = UTF-8 Unicode
+%
+%
+\ProvidesFile{texts_en.def}[examreport German texts]
+
+\newcommand{\disclaimer}{\emph{\textbf{Achtung:} Hierbei handelt es sich lediglich um eine Niederschrift aus dem Gedächtnis, erstellt für die Fachschaft Informatik und Mathematik der Universität Passau. Dies ist nicht die originale Klausur und es besteht keinerlei Anspruch auf Korrektheit oder Vollständigkeit!}}
+\newcommand{\examtext}[1]{Klausur im #1}
+\newcommand{\durationtext}{Arbeitszeit}
+\newcommand{\totalpointstext}{Gesamtpunktzahl}
+\newcommand{\aidstext}{Hilfsmittel}
+\newcommand{\tasktext}{Aufgabe}
+\newcommand{\pointstext}[1]{$#1$ \ifthenelse{\equal{#1}{1}}{Punkt}{Punkte}}
+\newcommand{\minutestext}[1]{$#1$ \ifthenelse{\equal{#1}{1}}{Minute}{Minuten}}
